@@ -1,156 +1,156 @@
 {
-  "timestamp": "2025-05-27T21:40:46.310827",
+  "timestamp": "2025-05-28T11:34:35.423123",
   "total_queries": 10,
   "aggregated_metrics": {
     "precision_at_k": {
-      "1": 0.0,
-      "3": 0.0,
-      "5": 0.0,
-      "10": 0.0
+      "1": 0.5,
+      "3": 0.39999999999999997,
+      "5": 0.34,
+      "10": 0.3
     },
     "recall_at_k": {
-      "1": 0.0,
-      "3": 0.0,
-      "5": 0.0,
-      "10": 0.0
+      "1": 0.12833333333333333,
+      "3": 0.30166666666666664,
+      "5": 0.425,
+      "10": 0.7416666666666667
     },
     "ndcg_at_k": {
-      "1": 0.0,
-      "3": 0.0,
-      "5": 0.0,
-      "10": 0.0
+      "1": 0.15333333333333332,
+      "3": 0.11743989383522971,
+      "5": 0.1200624282378776,
+      "10": 0.16430072059108533
     },
-    "mean_reciprocal_rank": 0.0,
-    "avg_response_time": 0.4232770919799805,
-    "modality_coverage_score": 0.0,
-    "answer_quality_score": 0.36333333333333334
+    "mean_reciprocal_rank": 0.5433333333333333,
+    "avg_response_time": 2.3409607648849486,
+    "modality_coverage_score": 0.6,
+    "answer_quality_score": 0.7818268904270602
   },
   "category_analysis": {
     "text_heavy": {
       "query_count": 1,
-      "avg_precision_at_5": 0.0,
-      "avg_recall_at_5": 0.0,
-      "avg_mrr": 0.0,
-      "avg_response_time": 1.9062390327453613,
-      "avg_answer_quality": 0.36333333333333334,
-      "modality_coverage": 0.0
+      "avg_precision_at_5": 0.8,
+      "avg_recall_at_5": 1.0,
+      "avg_mrr": 1.0,
+      "avg_response_time": 3.7413837909698486,
+      "avg_answer_quality": 0.847953216374269,
+      "modality_coverage": 0.5
     },
     "domain_specific": {
       "query_count": 1,
-      "avg_precision_at_5": 0.0,
-      "avg_recall_at_5": 0.0,
-      "avg_mrr": 0.0,
-      "avg_response_time": 0.5000550746917725,
-      "avg_answer_quality": 0.36333333333333334,
-      "modality_coverage": 0.0
+      "avg_precision_at_5": 1.0,
+      "avg_recall_at_5": 1.0,
+      "avg_mrr": 1.0,
+      "avg_response_time": 1.8262100219726562,
+      "avg_answer_quality": 0.73,
+      "modality_coverage": 0.5
     },
     "image_heavy": {
       "query_count": 1,
       "avg_precision_at_5": 0.0,
       "avg_recall_at_5": 0.0,
       "avg_mrr": 0.0,
-      "avg_response_time": 0.06656098365783691,
-      "avg_answer_quality": 0.36333333333333334,
-      "modality_coverage": 0.0
+      "avg_response_time": 1.0077900886535645,
+      "avg_answer_quality": 0.58,
+      "modality_coverage": 0.5
     },
     "visual": {
       "query_count": 1,
-      "avg_precision_at_5": 0.0,
-      "avg_recall_at_5": 0.0,
-      "avg_mrr": 0.0,
-      "avg_response_time": 0.490645170211792,
-      "avg_answer_quality": 0.36333333333333334,
-      "modality_coverage": 0.0
+      "avg_precision_at_5": 0.2,
+      "avg_recall_at_5": 0.25,
+      "avg_mrr": 1.0,
+      "avg_response_time": 1.921828269958496,
+      "avg_answer_quality": 0.5976190476190476,
+      "modality_coverage": 0.5
     },
     "multimodal": {
       "query_count": 2,
-      "avg_precision_at_5": 0.0,
-      "avg_recall_at_5": 0.0,
-      "avg_mrr": 0.0,
-      "avg_response_time": 0.1409149169921875,
-      "avg_answer_quality": 0.36333333333333334,
-      "modality_coverage": 0.0
+      "avg_precision_at_5": 0.1,
+      "avg_recall_at_5": 0.125,
+      "avg_mrr": 0.21666666666666667,
+      "avg_response_time": 2.276008129119873,
+      "avg_answer_quality": 0.8214765252668479,
+      "modality_coverage": 0.5
     },
     "niche": {
       "query_count": 1,
-      "avg_precision_at_5": 0.0,
-      "avg_recall_at_5": 0.0,
-      "avg_mrr": 0.0,
-      "avg_response_time": 0.10412383079528809,
-      "avg_answer_quality": 0.36333333333333334,
-      "modality_coverage": 0.0
+      "avg_precision_at_5": 0.6,
+      "avg_recall_at_5": 0.75,
+      "avg_mrr": 1.0,
+      "avg_response_time": 1.090656042098999,
+      "avg_answer_quality": 0.6900000000000001,
+      "modality_coverage": 1.0
     },
     "conceptual": {
       "query_count": 1,
       "avg_precision_at_5": 0.0,
       "avg_recall_at_5": 0.0,
       "avg_mrr": 0.0,
-      "avg_response_time": 0.10223102569580078,
-      "avg_answer_quality": 0.36333333333333334,
-      "modality_coverage": 0.0
+      "avg_response_time": 2.099684000015259,
+      "avg_answer_quality": 0.8066666666666666,
+      "modality_coverage": 1.0
     },
     "ambiguous": {
       "query_count": 1,
       "avg_precision_at_5": 0.0,
       "avg_recall_at_5": 0.0,
       "avg_mrr": 0.0,
-      "avg_response_time": 0.7291100025177002,
-      "avg_answer_quality": 0.36333333333333334,
-      "modality_coverage": 0.0
+      "avg_response_time": 3.5907480716705322,
+      "avg_answer_quality": 0.923076923076923,
+      "modality_coverage": 0.5
     },
     "broad": {
       "query_count": 1,
-      "avg_precision_at_5": 0.0,
-      "avg_recall_at_5": 0.0,
-      "avg_mrr": 0.0,
-      "avg_response_time": 0.05197596549987793,
-      "avg_answer_quality": 0.36333333333333334,
-      "modality_coverage": 0.0
+      "avg_precision_at_5": 0.6,
+      "avg_recall_at_5": 1.0,
+      "avg_mrr": 1.0,
+      "avg_response_time": 3.5792911052703857,
+      "avg_answer_quality": 1.0,
+      "modality_coverage": 0.5
     }
   },
   "difficulty_analysis": {
     "easy": {
       "query_count": 4,
-      "avg_precision_at_5": 0.0,
-      "avg_recall_at_5": 0.0,
-      "avg_mrr": 0.0,
-      "avg_response_time": 0.7944925427436829,
-      "avg_answer_quality": 0.36333333333333334
+      "avg_precision_at_5": 0.4,
+      "avg_recall_at_5": 0.5625,
+      "avg_mrr": 0.75,
+      "avg_response_time": 3.2083128094673157,
+      "avg_answer_quality": 0.8421622967675599
     },
     "medium": {
       "query_count": 4,
-      "avg_precision_at_5": 0.0,
-      "avg_recall_at_5": 0.0,
-      "avg_mrr": 0.0,
-      "avg_response_time": 0.1929829716682434,
-      "avg_answer_quality": 0.36333333333333334
+      "avg_precision_at_5": 0.3,
+      "avg_recall_at_5": 0.3125,
+      "avg_mrr": 0.3333333333333333,
+      "avg_response_time": 1.6784167885780334,
+      "avg_answer_quality": 0.7170340501792114
     },
     "hard": {
       "query_count": 2,
-      "avg_precision_at_5": 0.0,
-      "avg_recall_at_5": 0.0,
-      "avg_mrr": 0.0,
-      "avg_response_time": 0.1414344310760498,
-      "avg_answer_quality": 0.36333333333333334
+      "avg_precision_at_5": 0.3,
+      "avg_recall_at_5": 0.375,
+      "avg_mrr": 0.55,
+      "avg_response_time": 1.9313446283340454,
+      "avg_answer_quality": 0.7907417582417582
     }
   },
   "system_analysis": {
     "response_time_stats": {
-      "mean": 0.4232770919799805,
-      "median": 0.1414344310760498,
-      "std": 0.5711102757511656,
-      "min": 0.05197596549987793,
-      "max": 1.9062390327453613
+      "mean": 2.3409607648849486,
+      "median": 2.0107561349868774,
+      "std": 1.021795547138459,
+      "min": 1.0077900886535645,
+      "max": 3.7413837909698486
     },
     "result_count_stats": {
-      "mean": 0,
-      "median": 0.0,
+      "mean": 10,
+      "median": 10.0,
       "std": 0.0
     },
     "modality_performance": {
       "text_heavy": {
         "count": 1,
-        "avg_precision": 0.0
+        "avg_precision": 0.8
       },
       "image_heavy": {
         "count": 1,
@@ -158,7 +158,7 @@
       },
       "multimodal": {
         "count": 2,
-        "avg_precision": 0.0
+        "avg_precision": 0.1
       }
     }
   },
@@ -167,391 +167,37 @@
       "query": "What are the latest developments in large language models?",
       "category": "text_heavy",
       "difficulty": "easy",
-      "response_time": 1.9062390327453613,
-      "total_results": 0,
+      "response_time": 3.7413837909698486,
+      "total_results": 10,
       "precision_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
+        "1": 1.0,
+        "3": 0.6666666666666666,
+        "5": 0.8,
+        "10": 0.7
       },
       "recall_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
+        "1": 0.25,
+        "3": 0.5,
+        "5": 1.0,
+        "10": 1.75
       },
-      "mrr": 0.0,
+      "mrr": 1.0,
       "ndcg_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
+        "1": 0.5,
+        "3": 0.29329920376422275,
+        "5": 0.3237743198697942,
+        "10": 0.41215242998872603
       },
       "modality_coverage": {
-        "text": 0.0,
+        "text": 1.0,
         "image": 0.0,
-        "coverage_score": 0.0
+        "coverage_score": 0.5
       },
       "answer_quality": {
-        "completeness": 0.09,
-        "relevance": 0.0,
-        "coherence": 1.0,
-        "overall": 0.36333333333333334
+        "completeness": 1.0,
+        "relevance": 0.6666666666666666,
+        "coherence": 0.8771929824561403,
+        "overall": 0.847953216374269
       },
-      "retrieved_results": [],
-      "answer": "I couldn't find any relevant information for your query."
-    },
-    {
-      "query": "How is AI being used in healthcare and medical diagnosis?",
-      "category": "domain_specific",
-      "difficulty": "medium",
-      "response_time": 0.5000550746917725,
-      "total_results": 0,
-      "precision_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "recall_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "mrr": 0.0,
-      "ndcg_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "modality_coverage": {
-        "text": 0.0,
-        "image": 0.0,
-        "coverage_score": 0.0
-      },
-      "answer_quality": {
-        "completeness": 0.09,
-        "relevance": 0.0,
-        "coherence": 1.0,
-        "overall": 0.36333333333333334
-      },
-      "retrieved_results": [],
-      "answer": "I couldn't find any relevant information for your query."
-    },
-    {
-      "query": "Show me examples of computer vision applications in autonomous vehicles",
-      "category": "image_heavy",
-      "difficulty": "medium",
-      "response_time": 0.06656098365783691,
-      "total_results": 0,
-      "precision_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "recall_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "mrr": 0.0,
-      "ndcg_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "modality_coverage": {
-        "text": 0.0,
-        "image": 0.0,
-        "coverage_score": 0.0
-      },
-      "answer_quality": {
-        "completeness": 0.09,
-        "relevance": 0.0,
-        "coherence": 1.0,
-        "overall": 0.36333333333333334
-      },
-      "retrieved_results": [],
-      "answer": "I couldn't find any relevant information for your query."
-    },
-    {
-      "query": "What do neural network architectures look like?",
-      "category": "visual",
-      "difficulty": "easy",
-      "response_time": 0.490645170211792,
-      "total_results": 0,
-      "precision_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "recall_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "mrr": 0.0,
-      "ndcg_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "modality_coverage": {
-        "text": 0.0,
-        "image": 0.0,
-        "coverage_score": 0.0
-      },
-      "answer_quality": {
-        "completeness": 0.09,
-        "relevance": 0.0,
-        "coherence": 1.0,
-        "overall": 0.36333333333333334
-      },
-      "retrieved_results": [],
-      "answer": "I couldn't find any relevant information for your query."
-    },
-    {
-      "query": "Explain reinforcement learning with visual examples",
-      "category": "multimodal",
-      "difficulty": "medium",
-      "response_time": 0.10308480262756348,
-      "total_results": 0,
-      "precision_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "recall_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "mrr": 0.0,
-      "ndcg_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "modality_coverage": {
-        "text": 0.0,
-        "image": 0.0,
-        "coverage_score": 0.0
-      },
-      "answer_quality": {
-        "completeness": 0.09,
-        "relevance": 0.0,
-        "coherence": 1.0,
-        "overall": 0.36333333333333334
-      },
-      "retrieved_results": [],
-      "answer": "I couldn't find any relevant information for your query."
-    },
-    {
-      "query": "What are the recent breakthroughs in AI research with supporting charts or graphs?",
-      "category": "multimodal",
-      "difficulty": "hard",
-      "response_time": 0.17874503135681152,
-      "total_results": 0,
-      "precision_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "recall_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "mrr": 0.0,
-      "ndcg_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "modality_coverage": {
-        "text": 0.0,
-        "image": 0.0,
-        "coverage_score": 0.0
-      },
-      "answer_quality": {
-        "completeness": 0.09,
-        "relevance": 0.0,
-        "coherence": 1.0,
-        "overall": 0.36333333333333334
-      },
-      "retrieved_results": [],
-      "answer": "I couldn't find any relevant information for your query."
-    },
-    {
-      "query": "quantum computing machine learning applications",
-      "category": "niche",
-      "difficulty": "hard",
-      "response_time": 0.10412383079528809,
-      "total_results": 0,
-      "precision_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "recall_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "mrr": 0.0,
-      "ndcg_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "modality_coverage": {
-        "text": 0.0,
-        "image": 0.0,
-        "coverage_score": 0.0
-      },
-      "answer_quality": {
-        "completeness": 0.09,
-        "relevance": 0.0,
-        "coherence": 1.0,
-        "overall": 0.36333333333333334
-      },
-      "retrieved_results": [],
-      "answer": "I couldn't find any relevant information for your query."
-    },
-    {
-      "query": "AI ethics bias fairness",
-      "category": "conceptual",
-      "difficulty": "medium",
-      "response_time": 0.10223102569580078,
-      "total_results": 0,
-      "precision_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "recall_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "mrr": 0.0,
-      "ndcg_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "modality_coverage": {
-        "text": 0.0,
-        "image": 0.0,
-        "coverage_score": 0.0
-      },
-      "answer_quality": {
-        "completeness": 0.09,
-        "relevance": 0.0,
-        "coherence": 1.0,
-        "overall": 0.36333333333333334
-      },
-      "retrieved_results": [],
-      "answer": "I couldn't find any relevant information for your query."
-    },
-    {
-      "query": "deep learning",
-      "category": "ambiguous",
-      "difficulty": "easy",
-      "response_time": 0.7291100025177002,
-      "total_results": 0,
-      "precision_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "recall_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "mrr": 0.0,
-      "ndcg_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "modality_coverage": {
-        "text": 0.0,
-        "image": 0.0,
-        "coverage_score": 0.0
-      },
-      "answer_quality": {
-        "completeness": 0.09,
-        "relevance": 0.0,
-        "coherence": 1.0,
-        "overall": 0.36333333333333334
-      },
-      "retrieved_results": [],
-      "answer": "I couldn't find any relevant information for your query."
-    },
-    {
-      "query": "AI news",
-      "category": "broad",
-      "difficulty": "easy",
-      "response_time": 0.05197596549987793,
-      "total_results": 0,
-      "precision_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "recall_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "mrr": 0.0,
-      "ndcg_at_k": {
-        "1": 0.0,
-        "3": 0.0,
-        "5": 0.0,
-        "10": 0.0
-      },
-      "modality_coverage": {
-        "text": 0.0,
-        "image": 0.0,
-        "coverage_score": 0.0
-      },
-      "answer_quality": {
-        "completeness": 0.09,
-        "relevance": 0.0,
-        "coherence": 1.0,
-        "overall": 0.36333333333333334
-      },
-      "retrieved_results": [],
-      "answer": "I couldn't find any relevant information for your query."
-    }
-  ]
-}
+      "retrieved_results": [
+        
