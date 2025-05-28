@@ -25,7 +25,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # here is my Gemini API Key 
-GEMINI_API_KEY = "AIzaSyDK-MIuXq34glObzjp23MLrVObNPeElek0" 
+GEMINI_API_KEY = "...." 
 
 @dataclass
 class RetrievedResult:
