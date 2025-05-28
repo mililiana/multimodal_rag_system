@@ -420,7 +420,7 @@ class QdrantPKLUploader:
                 logger.info(f"   Image points: {image_count}")
                 logger.info(f"   Total points: {text_count + image_count}")
             else:
-                logger.warning("⚠️  Upload validation failed - no data found in collections")
+                logger.warning(" Upload validation failed - no data found in collections")
             
         except Exception as e:
             validation_results['error'] = str(e)
