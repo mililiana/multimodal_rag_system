@@ -47,8 +47,7 @@ gradio==5.31.0
 gradio_client==1.10.1
 graphviz==0.20.3
 groovy==0.1.2
-grpcio==1.71.0
-grpcio-status==1.71.0
+grpcio==1.67.1
 gym==0.26.2
 gym-notices==0.0.8
 h11==0.16.0
@@ -122,8 +121,7 @@ pydeck==0.9.1
 pydub==0.25.1
 pygame==2.6.1
 Pygments==2.19.1
-pymilvus==2.5.9
-pymilvus.model==0.3.2
+pymilvus>=2.5.9
 pynndescent==0.5.13
 pyparsing==3.2.3
 pyspark==3.5.5
