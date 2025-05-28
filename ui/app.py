@@ -48,8 +48,9 @@ def initialize_rag_system():
     """Initialize the RAG system with caching to avoid reinitialization"""
     try:
         # MY Qdrant credentials
-        qdrant_url = "https://...europe-west3-0.gcp.cloud.qdrant.io"
-        qdrant_key = "....yR7PB8U3c1ctT4OGCGLQnqE7-SRYDeapPDmCrAOozek"
+        qdrant_url = "https://2829a7bb-1713-4e6c-b1b1-d8ffbf38a124.europe-west3-0.gcp.cloud.qdrant.io"
+        qdrant_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.yR7PB8U3c1ctT4OGCGLQnqE7-SRYDeapPDmCrAOozek"
+
         
         rag_system = MultimodalRAGSystem(
             qdrant_url=qdrant_url,
