@@ -6,8 +6,8 @@ class RAGConfig:
     """Configuration class for Multimodal RAG System"""
     
     # Qdrant Configuration
-    QDRANT_URL = "https://2829a7bb-1713-4e6c-b1b1-d8ffbf38a124.europe-west3-0.gcp.cloud.qdrant.io"
-    QDRANT_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.yR7PB8U3c1ctT4OGCGLQnqE7-SRYDeapPDmCrAOozek"
+    QDRANT_URL = "https://....europe-west3-0.gcp.cloud.qdrant.io"
+    QDRANT_API_KEY = "..."
     
     # Collection names
     TEXT_COLLECTION = "text_embeddings"
@@ -19,7 +19,7 @@ class RAGConfig:
     GEMINI_MODEL_NAME = "gemini-1.5-flash"
     
     # Gemini API Key (you can also set this via environment variable)
-    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyDK-MIuXq34glObzjp23MLrVObNPeElek0")
+    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "...")
     
     # Default search parameters
     DEFAULT_LIMIT = 5
@@ -29,7 +29,6 @@ class RAGConfig:
     
     # UI Configuration
     PAGE_TITLE = "Multimodal RAG System - The Batch News"
-    PAGE_ICON = "📰"
     
     # Safety settings for Gemini
     SAFETY_SETTINGS = {
