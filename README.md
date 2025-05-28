@@ -2,7 +2,7 @@
 
 A comprehensive Retrieval-Augmented Generation (RAG) system that processes and retrieves relevant news articles from The Batch, incorporating both textual and visual data to provide enhanced search and question-answering capabilities using advanced embedding models and vector databases.
 
-## 🎯 Project Overview
+## Project Overview
 
 This multimodal RAG system allows users to:
 - Query news articles using natural language with semantic understanding
@@ -11,7 +11,7 @@ This multimodal RAG system allows users to:
 - Browse multimedia content through an intuitive web interface
 - Leverage state-of-the-art embedding models for accurate content matching
 
-## 🏗️ System Architecture & Technical Approach
+## System Architecture & Technical Approach
 
 ### Embedding Strategy & Model Selection
 
@@ -49,7 +49,7 @@ We conducted comprehensive testing of multiple embedding models to optimize perf
 
 | Model | Loading Time | Memory Usage | Performance Notes |
 |-------|-------------|--------------|-------------------|
-| **CLIP ViT-B/32** | 1.5s | 500MB | ⭐ **Selected** - Best speed/performance balance |
+| **CLIP ViT-B/32** | 1.5s | 500MB | **Selected** - Best speed/performance balance |
 | ViT-Base | 9.5s | 441MB | Slower loading, good accuracy |
 | ResNet-50 | 4.0s | 102MB | Lightweight but less semantic understanding |
 | BLIP + CLIP | 40.6s | 990MB | High accuracy but resource intensive |
@@ -107,7 +107,7 @@ We conducted comprehensive testing of multiple embedding models to optimize perf
 - **Streamlit Web App**: Interactive interface for querying and viewing results
 - **Real-time Processing**: Live query processing and result display
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 RAG_SS/
@@ -139,7 +139,7 @@ RAG_SS/
 └── README.md                   # This file
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -178,7 +178,7 @@ RAG_SS/
    python config.py
    ```
 
-## 📊 Data Setup & Configuration
+## Data Setup & Configuration
 
 Our data pipeline is designed for efficiency and scalability:
 
@@ -200,17 +200,17 @@ Our system underwent rigorous testing across **10 diverse query categories** wit
 
 | Category | Precision@5 | Recall@5 | MRR | Avg Response Time |
 |----------|-------------|----------|-----|-------------------|
-| **Text-Heavy** | 0.800 🟢 | 1.000 🟢 | 1.000 🟢 | 3.74s |
-| **Domain-Specific** | 1.000 🟢 | 1.000 🟢 | 1.000 🟢 | 1.83s |
-| **Visual Queries** | 0.200 🟡 | 0.250 🟡 | 1.000 🟢 | 1.92s |
-| **Multimodal** | 0.100 🟡 | 0.125 🟡 | 0.217 🟡 | 2.28s |
-| **Broad Queries** | 0.600 🟢 | 1.000 🟢 | 1.000 🟢 | 3.58s |
+| **Text-Heavy** | 0.800 | 1.000  | 1.000 | 3.74s |
+| **Domain-Specific** | 1.000 | 1.000 | 1.000  | 1.83s |
+| **Visual Queries** | 0.200  | 0.250  | 1.000  | 1.92s |
+| **Multimodal** | 0.100  | 0.125  | 0.217  | 2.28s |
+| **Broad Queries** | 0.600  | 1.000  | 1.000  | 3.58s |
 
 **Key Insights**:
-- ✅ Excellent performance on text-heavy and domain-specific queries
-- ⚠️ Image-heavy queries need improvement (multimodal fusion enhancement)
-- ✅ Consistent sub-4-second response times across all categories
-- ✅ High answer quality maintained across query types
+- Excellent performance on text-heavy and domain-specific queries
+- Image-heavy queries need improvement (multimodal fusion enhancement)
+- Consistent sub-4-second response times across all categories
+- High answer quality maintained across query types
 
 ### Option 1: Use Existing Data
 The repository includes pre-processed data in the `data/` directory. You can skip to the "Running the Application" section.
@@ -226,7 +226,7 @@ python data_ingestion/fetch_the_batch.py
 python embedding/encoder.py
 ```
 
-## 🖥️ Running the Application
+##  Running the Application
 
 ### Launch the Web Interface
 
@@ -251,7 +251,7 @@ The application will be available at `http://localhost:8501`
 - "Show me articles about machine learning applications"
 - "Find content related to computer vision"
 
-## 🛠️ System Components
+##  System Components
 
 ### Data Ingestion (`data_ingestion/`)
 - **fetch_the_batch.py**: Scrapes articles from The Batch website
@@ -298,7 +298,7 @@ Results are stored in `rag_evaluation_results.json` and include:
 python retrieval/evaluate_gemini.py
 ```
 
-## 🔧 Advanced Configuration & Performance Tuning
+##  Advanced Configuration & Performance Tuning
 
 ### Embedding Optimization
 ```python
@@ -360,9 +360,9 @@ PAGE_ICON = "🔍"
 MAX_IMAGE_SIZE = (800, 600)      # Optimized for web display
 ```
 
-## 🧪 Testing
+## Testing
 
-## 🧪 Model Testing & Evaluation
+## Model Testing & Evaluation
 
 ### Embedding Model Comparison Study
 
@@ -375,7 +375,7 @@ We conducted systematic testing of multiple embedding architectures:
   "clip": {
     "loading_time": "1.5s",
     "memory_usage": "500MB", 
-    "performance": "⭐ SELECTED - Optimal balance",
+    "performance": "SELECTED - Optimal balance",
     "encoder": "CLIP ViT-B/32"
   },
   "vit": {
@@ -424,7 +424,7 @@ Our evaluation framework includes:
 
 **Results Storage**: Complete evaluation data saved in `rag_evaluation_results.json`
 
-## 🚀 Deployment Options
+##  Deployment Options
 
 ### Local Deployment
 The system runs locally using Streamlit (default setup).
@@ -450,7 +450,7 @@ For cloud deployment, consider:
    - Google Cloud Run
    - Azure Container Instances
 
-## 🔍 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -481,7 +481,7 @@ Solution: Use different port
 streamlit run ui/app.py --server.port 8502
 ```
 
-## 📚 Dependencies
+##  Dependencies
 
 ### Core Libraries & Rationale
 - `streamlit`: Web application framework - chosen for rapid prototyping and intuitive UI
@@ -506,7 +506,7 @@ streamlit run ui/app.py --server.port 8502
 - `pytest`: Testing framework
 - `black`: Code formatting
 
-## 🎯 Key Technical Decisions & Rationale
+##  Key Technical Decisions & Rationale
 
 ### Why These Models?
 
@@ -542,7 +542,7 @@ streamlit run ui/app.py --server.port 8502
 4. **Performance Optimization**: Carefully selected models balance speed/accuracy
 5. **Evaluation-Driven**: Comprehensive testing validates design choices
 
-## 🤝 Contributing & Development
+##  Contributing & Development
 
 ### Development Setup
 1. Fork the repository
@@ -567,11 +567,11 @@ streamlit run ui/app.py --server.port 8502
 4. **Performance Optimization**: Reduce response times further
 5. **Evaluation Metrics**: Expand benchmarking capabilities
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments & Technical Credits
+##  Acknowledgments & Technical Credits
 
 - **The Batch**: Primary data source for high-quality AI/ML news articles
 - **OpenAI CLIP**: Revolutionary vision-language model enabling multimodal understanding
@@ -586,7 +586,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - RAG methodology: "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
 - Multimodal embeddings: Various papers on cross-modal information retrieval
 
-## 📞 Support & Troubleshooting
+##  Support & Troubleshooting
 
 For technical issues and questions:
 
@@ -602,7 +602,7 @@ For technical issues and questions:
 - **Memory Usage**: ~500MB for embedding models
 - **Startup Time**: ~10 seconds for complete system initialization
 
-## 🔄 Version History & Roadmap
+##  Version History & Roadmap
 
 ### Current Version: v1.3.0
 - **v1.0.0**: Initial RAG implementation with basic text search
