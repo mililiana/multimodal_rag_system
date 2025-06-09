@@ -7,7 +7,7 @@ A comprehensive Retrieval-Augmented Generation (RAG) system that processes and r
 This multimodal RAG system allows users to:
 - Query news articles using natural language with semantic understanding
 - Retrieve relevant articles with associated images using vector similarity search
-- Get AI-powered answers from multiple LLM models (Gemini Pro, LLaVA 1.5)
+- Get AI-powered answers from multiple LLM models (Gemini-1.5-flash, LLaVA 1.5)
 - Browse multimedia content through an intuitive web interface
 - Leverage state-of-the-art embedding models for accurate content matching
 
@@ -58,7 +58,7 @@ We conducted comprehensive testing of multiple embedding models to optimize perf
 
 ### LLM Integration & Testing
 
-#### Primary Model: Google Gemini Pro
+#### Primary Model: Google Gemini-1.5-flash
 - **Usage**: Main answer generation and query understanding
 - **Integration**: `retrieval/vector_search_gemini.py`
 - **Evaluation**: Comprehensive performance analysis in `retrieval/evaluate_gemini.py`
@@ -94,7 +94,7 @@ We conducted comprehensive testing of multiple embedding models to optimize perf
 
 #### Core Components:
 - **`retrieval/vector_search.py`**: Fundamental similarity search with LLaVA 1.5 integration
-- **`retrieval/vector_search_gemini.py`**: Enhanced search with Gemini Pro reasoning
+- **`retrieval/vector_search_gemini.py`**: Enhanced search with Gemini-1.5-flash reasoning
 - **`retrieval/evaluate_gemini.py`**: Comprehensive system evaluation and benchmarking
 
 #### Advanced Features:
@@ -401,7 +401,7 @@ We conducted systematic testing of multiple embedding architectures:
 
 ### LLM Performance Analysis
 
-#### Gemini Pro Evaluation Results:
+#### Gemini-1.5-flash Evaluation Results:
 - **Total Queries Tested**: 10 diverse categories
 - **Overall Precision@5**: 0.340 (34% relevant results in top 5)
 - **Mean Response Time**: 2.34 seconds
@@ -528,8 +528,8 @@ streamlit run ui/app.py --server.port 8502
 - **Advanced Features**: Hybrid search, filtering, and metadata support
 - **Developer Experience**: Excellent Python SDK and documentation
 
-#### LLM Choice: Gemini Pro + LLaVA 1.5
-- **Gemini Pro**: Superior reasoning and context understanding
+#### LLM Choice: Gemini-1.5-flash + LLaVA 1.5
+- **Gemini-1.5-flash**: Superior reasoning and context understanding
 - **LLaVA 1.5**: Specialized multimodal capabilities for image-text tasks
 - **Redundancy**: Multiple models ensure system reliability
 - **Performance**: Comprehensive evaluation shows strong results (78% answer quality)
@@ -607,7 +607,7 @@ For technical issues and questions:
 ### Current Version: v1.3.0
 - **v1.0.0**: Initial RAG implementation with basic text search
 - **v1.1.0**: Added CLIP-based image embeddings and multimodal retrieval
-- **v1.2.0**: Integrated Gemini Pro and LLaVA 1.5 for enhanced reasoning
+- **v1.2.0**: Integrated Gemini-1.5-flash and LLaVA 1.5 for enhanced reasoning
 - **v1.3.0**: Comprehensive evaluation framework and performance optimization
 
 ### Upcoming Features (v1.4.0+)
