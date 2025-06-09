@@ -278,7 +278,7 @@ The application will be available at `http://localhost:8501`
 - **styles.css**: Custom styling for better UX
 - Responsive design with multimedia support
 
-## 📈 System Evaluation
+## System Evaluation
 
 The system includes comprehensive evaluation metrics:
 
